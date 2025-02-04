@@ -81,13 +81,13 @@ The distribution of the data is illustrated as a curve. When the data do not hav
 
 Overall, this first file demonstrates the versatility of Pandas for data manipulation and analysis. The ability to extract, filter, and summarize data effectively facilitates deeper insights into the Titanic dataset.
 
-04 PANDAS- MATPLOTLIB - SEABORN
+# PANDAS- MATPLOTLIB - SEABORN
 VISUALIZATION.
 
 The initial step of the second file is importing all the libraries necessary to extrapolate the information required to create visualizations.
 
     
-PRE-PROCESSING
+# PRE-PROCESSING
 
 For plotting and visualization, it is required that the dataset has only reliable and usable data, hence, all duplicates’ values, null values needs to be dropped. 
 To present an understandable report to Stakeholders and decision maker, our data needs to be as clear as possible. In this dataset, for example, some titles are not clear or descriptive such as sibsp, parch, etc. In this analysis, columns titles are being renamed with descriptive title replacing for example “sibs” title with “siblings or spouse” title. 
@@ -127,8 +127,7 @@ It is suggested a strong correlation between the two data points.
 The next graph displays the age distribution within classes using a line plot.
 Line plot graph uses data points displaying a clear representation of trends and patterns. 
 
-SKLEARN
-TRAIN/TEST SPLIT  
+# SKLEARN - TRAIN/TEST SPLIT  
 
 In the third file, sklearn library is imported along Panda, Seaborn, Matplotlib and numpy. 
 Sklearn is a Python library widely used to implements pre-processing, cross-validation, regression, visualization, and algorithms.
